@@ -9,9 +9,9 @@ function Header() {
       <div className="bg-[#2068F5] w-[100%] h-[80px] justify-center flex items-center">
             <div className='w-[1100px] justify-start flex items-center gap-[20px] text-white'>
                 <img src={Signal} alt="Logo" className='w-[50px]'/>
-                <a href="#">Criar novo grupo de dispositivo</a>
-                <a href="#">Grupos de dispositivos</a>
-                <a href="#">Sobre</a>
+                <a href="/form-group">Criar dispositivo</a>
+                <a href="/">Dispositivos</a>
+                <a href="/">Sobre</a>
             </div>
       </div>
     
