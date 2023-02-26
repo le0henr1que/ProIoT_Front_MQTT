@@ -43,8 +43,8 @@ function CardGroup({nameGroup, moreDevice, onClick, idGroup, onDelete, mqqtTopic
 
                 <div className="w-[90%] flex justify-between items-center ">
 
-                    <div className='w-[60px] h-[60px] rounded-[50%] bg-[#2068F5] flex justify-center items-center mt-[30px] ml-[20px] cursor-pointer' onClick={onClick}>
-                        <img src={moreDevice == true ? More : Device} alt="Device" className='w-[35px] cursor-pointer'/>
+                    <div className='w-[60px] h-[60px] rounded-[50%] bg-[#2068F5] flex justify-center items-center mt-[30px] ml-[20px]'>
+                        <img src={moreDevice == true ? More : Device} alt="Device" className='w-[35px]'/>
                     </div>
                     <p className='text-[#2068F5] mt-[-30px] text-[15px] cursor-pointer' onClick={() => navigate(`/form-group/${idGroup}`)}>Editar</p>
                     <p className='text-[red] mt-[-30px] text-[15px] cursor-pointer' onClick={() => deleteGroup()}>Excluir</p>
@@ -52,7 +52,7 @@ function CardGroup({nameGroup, moreDevice, onClick, idGroup, onDelete, mqqtTopic
                 </div>
             </div>
 
-            <div className="w-[85%] mt-[40px] text-[10px] cursor-pointer" onClick={onClick}>
+            <div className="w-[85%] mt-[40px] text-[10px] " >
                 <p className='font-normal text-[13px] text-[#092F79]'>{nameGroup}</p>
                 <h2 className='font-semibold text-[18px] text-[#2068F5]'>{infoType}</h2>
 
